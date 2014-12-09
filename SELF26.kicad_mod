@@ -2,10 +2,10 @@
   (at 0 0)
   (tags "SELF INDUCTOR")
   (fp_text reference SELF26 (at -5.08 7.62) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL*** (at 0 -9.525) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text value VAL** (at 0 -9.525) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.54 15.875) (end -1.27 13.335) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.54 15.875) (end 0 5.715) (layer F.SilkS) (width 0.15))
@@ -14,7 +14,7 @@
   (pad 1 thru_hole circle (at -2.54 15.875) (size 1.778 1.778) (drill 1.1938) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.54 15.875) (size 1.778 1.778) (drill 1.1938) (layers *.Cu *.Mask F.SilkS))
   (pad "" thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.175) (layers *.Cu *.SilkS *.Mask))
-  (model discret/self26.wrl
+  (model Divers/SELF26.wrl
     (at (xyz 0 0 0))
     (scale (xyz 2.7 2.7 2.7))
     (rotate (xyz 0 0 0))
